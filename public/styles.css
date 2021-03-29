@@ -1,6 +1,65 @@
 body{
   background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+.trapping{
+  margin: 0;
+  font-family: 'Train One';
+  font-weight: bold;
+}
+h1{
+  font-size: 50px;
+}
+h1 i{
+  /* color: white; */
 }
 h3{
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 30px;
+}
+span{
+  font-size: 20px;
+}
+span i:hover{
+  color: white;
+}
+.msgBld{
+  font-weight: bold;
+}
+.msg{
   margin-top: 40px;
+}
+form input{
+  height: 25px;
+  border: none;
+  border-radius: 3px;
+}
+form button{
+  height: 25px;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+}
+form button:hover{
+  background-color: crimson;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+li{
+  border-bottom: 1px solid black;
+
+}
+.likes{
+  font-weight: bold;
+  color: white;
+}
+.hidden{
+  display: none;
 }
